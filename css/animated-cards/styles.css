@@ -7,12 +7,18 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-body {
+section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
-  background: #114674;
+  background: var(--color);
+}
+
+section h1 {
+  color: #ece1ca;
+  margin-bottom: 50px;
 }
 
 .container {
