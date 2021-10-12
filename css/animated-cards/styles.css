@@ -14,3 +14,20 @@ body {
   min-height: 100vh;
   background: #114674;
 }
+
+.container {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.container .serviceBox {
+  position: relative;
+  width: 350px;
+  height: 280px;
+  background: #1f70b6;
+  border-radius: 20px;
+}
