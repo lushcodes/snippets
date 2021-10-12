@@ -53,3 +53,13 @@ body {
   height: 80px;
   border-radius: 50%;
 }
+
+.container .serviceBox .icon ion-icon {
+  font-size: 5em;
+  color: #18140b;
+  transition: 0.5s;
+}
+
+.container .serviceBox:hover .icon ion-icon {
+  font-size: 3em;
+}
