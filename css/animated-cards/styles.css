@@ -39,7 +39,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #5faac0;
+  background: var(--color);
   transition: 0.5s;
   display: flex;
   justify-content: center;
