@@ -28,7 +28,7 @@ body {
   position: relative;
   width: 350px;
   height: 280px;
-  background: #1f70b6;
+  background: #ece1ca;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -44,6 +44,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+  transition-delay: 0.25s;
 }
 
 .container .serviceBox:hover .icon {
@@ -52,14 +54,43 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  transition-delay: 0s;
 }
 
 .container .serviceBox .icon ion-icon {
   font-size: 5em;
   color: #18140b;
-  transition: 0.5s;
+  transition-delay: 0.25s;
 }
 
 .container .serviceBox:hover .icon ion-icon {
   font-size: 3em;
+  transition-delay: 0s;
+}
+
+.container .serviceBox .content {
+  position: relative;
+  padding: 20px;
+  color: #18140b;
+  text-align: center;
+  margin-top: 100px;
+  z-index: 1;
+  transform: scale(0);
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+.container .serviceBox:hover .content {
+  transform: scale(1);
+  transition-delay: 0.25s;
+}
+
+.container .serviceBox .content h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.container .serviceBox .content p {
+  font-weight: 300;
+  line-height: 1.5rem;
 }
