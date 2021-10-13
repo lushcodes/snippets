@@ -106,3 +106,19 @@ section h1 {
 }
 
 /* ANIMATED BUTTONS SECTION */
+
+a {
+  position: relative;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 40px;
+  transition: 1s;
+}
+
+a:hover {
+  background: var(--color);
+  box-shadow: 0 0 10px var(--color), 0 0 30px var(--color), 0 0 60px var(--color), 0 0 100px var(--color);
+}
