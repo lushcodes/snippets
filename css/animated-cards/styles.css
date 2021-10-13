@@ -16,6 +16,8 @@ section {
   background: var(--color);
 }
 
+/* ANIMATED CARDS SECTION */
+
 section h1 {
   color: #ece1ca;
   margin-bottom: 50px;
@@ -102,3 +104,5 @@ section h1 {
   font-weight: 300;
   line-height: 1.5rem;
 }
+
+/* ANIMATED BUTTONS SECTION */
